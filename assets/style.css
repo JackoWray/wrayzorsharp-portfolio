@@ -34,12 +34,43 @@ header nav {
   flex-grow: 2;
 }
 
+main {
+  display: flex;
+}
+
 .background-img {
   background-image: url(./Images/king-george-sound.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100% 100%;
+  height: 850px;
 }
-main {
-    display:flex  
+
+main section {
+  display: flex;
 }
+
+main h2 {
+  flex: 1 1 85%;
+  height: 56px;
+  text-align: center;
+}
+
+main p {
+  height: 766px;
+  margin-left: 24%;
+  margin-right: 24%;
+}
+
+main section {
+  flex-wrap: wrap;
+  flex: 1 0 49%;
+}
+
 main img {
-    max-height: 400px;
-    max-width: 400px;
+  height: 300px;
+}
+
+#mywork {
+  height: 600px;
+}
