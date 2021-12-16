@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", "Calibri", serif;
+}
+
+.display-inline {
+  display: inline;
+}
+
+header {
+  display: flex;
+  background-color: #ccc89a;
+  line-height: 42px;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+}
+header div {
+  flex-grow: 5;
+  align-items: flex-start;
+}
+
+header h1 {
+  height: 30px;
+  color: #788898;
+}
+
+header h3 {
+  color: #607080;
+}
+
+header nav {
+  flex-grow: 2;
+}
+
+.background-img {
+  background-image: url(./Images/king-george-sound.jpg);
+}
+main {
+    display:flex  
+}
+main img {
+    max-height: 400px;
+    max-width: 400px;
